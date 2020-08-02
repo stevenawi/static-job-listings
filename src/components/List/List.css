@@ -1,7 +1,7 @@
 .list {
 	padding: 35px;
 	margin-bottom: 60px;
-	background-color: hsl(180, 31%, 95%);
+	background-color: #fff;
 	border-radius: 5px;
 	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
@@ -111,7 +111,7 @@
 
 .list__skill {
 	color: hsl(180, 29%, 50%);
-	background-color: hsl(180, 52%, 96%);
+	background-color: hsl(180, 31%, 95%);
 	padding: 10px;
 	font: inherit;
 	font-size: 13px;

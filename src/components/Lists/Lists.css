@@ -16,7 +16,7 @@
 	display: flex;
 	justify-content: space-between;
 	padding: 25px 35px;
-	background-color: hsl(180, 31%, 95%);
+	background-color: #fff;
 	border-radius: 5px;
 	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
@@ -38,7 +38,7 @@
 
 .filter__item__name {
 	color: hsl(180, 29%, 50%);
-	background-color: hsl(180, 52%, 96%);
+	background-color: hsl(180, 31%, 95%);
 	padding: 10px;
 	font-size: 13px;
 	font-weight: 700;
