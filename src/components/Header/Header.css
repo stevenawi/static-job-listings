@@ -1,0 +1,15 @@
+.header {
+	background-color: hsl(180, 29%, 50%);
+	top: 0;
+	height: 156px;
+	width: 100%;
+	background-image: url('/images/bg-header-mobile.svg');
+	position: absolute;
+	z-index: -1;
+}
+
+@media (min-width: 1070px) {
+	.header {
+		background-image: url('/images/bg-header-desktop.svg');
+	}
+}

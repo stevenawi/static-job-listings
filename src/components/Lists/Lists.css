@@ -1,0 +1,75 @@
+.lists {
+	margin: auto;
+	margin-top: 220px;
+	width: 90%;
+}
+
+.lists-top {
+	margin: 0 auto;
+}
+
+.filter {
+	margin: auto;
+	margin-top: 115px;
+	margin-bottom: 60px;
+	width: 90%;
+	display: flex;
+	justify-content: space-between;
+	padding: 25px 35px;
+	background-color: hsl(180, 31%, 95%);
+	border-radius: 5px;
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.filter__left {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.filter__item {
+	display: flex;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.filter__item:not(:last-child) {
+	margin-right: 15px;
+}
+
+.filter__item__name {
+	color: hsl(180, 29%, 50%);
+	background-color: hsl(180, 52%, 96%);
+	padding: 10px;
+	font-size: 13px;
+	font-weight: 700;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+.filter__item__remove {
+	border: none;
+	outline: none;
+	background-color: hsl(180, 29%, 50%);
+	width: 37px;
+	cursor: pointer;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+.filter__item__remove:hover {
+	background-color: hsl(180, 14%, 20%);
+}
+
+.filter__clear {
+	margin-left: 10px;
+	border: none;
+	outline: none;
+	color: hsl(180, 29%, 50%);
+	background-color: transparent;
+	font-weight: 700;
+	cursor: pointer;
+}
+
+.filter__clear:hover {
+	text-decoration: underline;
+}
