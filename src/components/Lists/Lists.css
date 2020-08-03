@@ -66,6 +66,7 @@
 	outline: none;
 	color: hsl(180, 29%, 50%);
 	background-color: transparent;
+	font-family: inherit;
 	font-weight: 700;
 	cursor: pointer;
 }
